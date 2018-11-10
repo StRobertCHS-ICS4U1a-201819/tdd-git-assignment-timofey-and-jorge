@@ -1,2 +1,4 @@
 def find_range(array):
-    return 0
+    lenArr = len(array)
+    array_range = array[lenArr-1] - array[0]
+    return array_range
