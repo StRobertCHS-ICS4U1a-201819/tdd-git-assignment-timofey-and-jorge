@@ -52,6 +52,9 @@ def test_upper_quartile_negative():
 def test_upper_quartile_non_array():
     assert(upper_quartile("no") == "error")
 
+def test_variance_basic():
+    assert(variance([600, 470, 170, 430, 300]) == 21704)
+
 
 
 def test_merge_basic():

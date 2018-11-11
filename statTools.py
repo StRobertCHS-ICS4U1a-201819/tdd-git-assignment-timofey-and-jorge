@@ -46,7 +46,8 @@ def upper_quartile(array):
     except:
         return "error"
 
-
+def variance(array):
+    return 0
 
 
 def merge(array1, array2):
