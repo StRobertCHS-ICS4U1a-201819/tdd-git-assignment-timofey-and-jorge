@@ -10,6 +10,11 @@ def find_range(array):
     except:
         return -1
 
+def lower_quartile(array):
+    return 0
+
+
+
 def merge(array1, array2):
     array = []
     lenArr1 = len(array1)
