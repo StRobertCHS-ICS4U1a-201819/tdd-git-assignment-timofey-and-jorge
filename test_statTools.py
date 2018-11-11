@@ -58,6 +58,9 @@ def test_variance_basic():
 def test_variance_empty():
     assert(variance([]) == 0)
 
+def test_variance_negative():
+    assert(variance([-4,-2,0,2,4]) == 8)
+
 
 
 def test_merge_basic():
