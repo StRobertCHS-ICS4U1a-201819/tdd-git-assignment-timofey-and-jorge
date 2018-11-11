@@ -40,13 +40,15 @@ def lower_quartile(array):
     try:
         len_arr = len(array)
         if len_arr > 0:
+            # get the lower half of the array
             top_val = int((len_arr + 1) / 2)
             array = merge_sort(array)
             array = array[:top_val]
 
             mid = int(top_val / 2)
 
-            if (top_val % 2 == 0):
+            # find the median
+            if top_val % 2 == 0:
                 return (array[mid - 1] + array[mid]) / 2
             return array[mid] / 1
         else:
@@ -66,12 +68,14 @@ def upper_quartile(array):
     try:
         len_arr = len(array)
         if len_arr > 0:
+            # get the upper half of the array
             min_val = int(len_arr / 2)
             array = merge_sort(array)
             array = array[min_val:]
 
             mid = int(min_val / 2)
 
+            # find the median
             if (len_arr - min_val) % 2 == 0:
                 return (array[mid + 1] + array[mid]) / 2
             return array[mid] / 1
@@ -96,10 +100,12 @@ def variance(array):
             mean = 0
             variance_out = 0
 
+            # find mean
             for i in range(len_arr):
                 mean += array[i]
             mean /= len_arr
 
+            # find difference between every number and the mean, square it, then add it to the total
             for i in range(len_arr):
                 variance_out += (array[i] - mean) ** 2
             variance_out /= len_arr
