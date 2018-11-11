@@ -9,3 +9,9 @@ def test_find_range_unsorted():
 
 def test_merge_basic():
     assert(merge([1,3,5,7,9],[2,4,6,8,10]) == [1,2,3,4,5,6,7,8,9,10])
+
+def test_merge_sort_basic():
+    assert(merge_sort([5,2,7,4,8,3,9,1,6]) == [1,2,3,4,5,6,7,8,9])
+
+def test_merge_sort_repeated():
+    assert(merge_sort([5,2,7,3,8,2,9,3,5,3,5,3]) == [2,2,3,3,3,3,5,5,5,7,8,9])

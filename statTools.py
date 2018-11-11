@@ -26,3 +26,10 @@ def merge(array1, array2):
 
     return array
 
+def merge_sort(array):
+    lenArr = len(array)
+    mid = int(lenArr/2)
+    if lenArr <= 1:
+        return array
+    else:
+        return merge(merge_sort(array[:mid]), merge_sort(array[mid:]))
