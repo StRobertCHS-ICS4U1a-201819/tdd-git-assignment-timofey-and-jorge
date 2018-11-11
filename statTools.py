@@ -68,7 +68,7 @@ def variance(array):
         return "error"
 
 def standard_deviation(array):
-    return 0
+    return round(variance(array)**0.5,2)
 
 
 def merge(array1, array2):
