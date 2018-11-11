@@ -16,6 +16,7 @@ A function that finds the range of a given set of values
 :return: int  the difference between greatest and smallest value
 '''
 
+
 def find_range(array):
     try:
         len_arr = len(array)
@@ -25,12 +26,13 @@ def find_range(array):
 
             # Sort the array and return the difference between highest and lowest number
             array = merge_sort(array)
-            return array[len_arr-1] - array[0]
+            return array[len_arr - 1] - array[0]
         else:
             # If the arrays length is less than 2 the difference between highest and lowest will be 0
             return 0
     except:
         return "error"
+
 
 ''' lower_quartile
 A function that finds the median of the lower half of a set of values
