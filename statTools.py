@@ -28,6 +28,26 @@ def lower_quartile(array):
     except:
         return "error"
 
+def upper_quartile(array):
+    try:
+        lenArr = len(array)
+        if lenArr > 0:
+            minVal = int((lenArr) / 2)
+            array = merge_sort(array)
+            array = array[minVal:]
+
+            mid = int(minVal/2)
+
+            if ((lenArr-minVal) % 2 == 0):
+                return (array[mid+1]+array[mid]) / 2
+            return array[mid] / 1
+        else:
+            return 0
+    except:
+        return "error"
+
+
+
 
 def merge(array1, array2):
     array = []

@@ -34,6 +34,26 @@ def test_lower_quartile_negative():
 def test_lower_quartile_non_array():
     assert(lower_quartile("no") == "error")
 
+def test_upper_quartile_basic():
+    assert(upper_quartile([1,2,3,4,5,6]) == 5)
+
+def test_upper_quartile_odd():
+    assert(upper_quartile([1,2,3,4,5,6,7]) == 5.5)
+
+def test_upper_quartile_empty():
+    assert(upper_quartile([]) == 0)
+
+def test_upper_quartile_unsorted():
+    assert(upper_quartile([7,4,6,5,1,3,2]) == 5.5)
+
+def test_upper_quartile_negative():
+    assert(upper_quartile([-3,3,-2,2,-1,1,0]) == 1.5)
+
+def test_upper_quartile_non_array():
+    assert(upper_quartile("no") == "error")
+
+
+
 def test_merge_basic():
     assert(merge([1,3,5,7,9],[2,4,6,8,10]) == [1,2,3,4,5,6,7,8,9,10])
 
