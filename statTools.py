@@ -11,19 +11,22 @@ def find_range(array):
         return "error"
 
 def lower_quartile(array):
-    lenArr = len(array)
-    if lenArr > 0:
-        topVal = int((lenArr + 1) / 2)
-        array = merge_sort(array)
-        array = array[:topVal]
+    try:
+        lenArr = len(array)
+        if lenArr > 0:
+            topVal = int((lenArr + 1) / 2)
+            array = merge_sort(array)
+            array = array[:topVal]
 
-        mid = int(topVal/2)
+            mid = int(topVal/2)
 
-        if (topVal % 2 == 0):
-            return (array[mid-1]+array[mid]) / 2
-        return array[mid]
-    else:
-        return 0
+            if (topVal % 2 == 0):
+                return (array[mid-1]+array[mid]) / 2
+            return array[mid] / 1
+        else:
+            return 0
+    except:
+        return "error"
 
 
 def merge(array1, array2):
