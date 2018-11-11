@@ -2,20 +2,23 @@ import pytest
 from statTools import *
 
 #FIND RANGE TESTS
+def test_find_range_simple():
+    assert(find_range([4]) == 0)
+
 def test_find_range_basic():
     assert(find_range([1,2,3,4,5]) == 4)
 
-def test_find_range_unsorted():
-    assert(find_range([3,2,4,1,5]) == 4)
-
-def test_find_range_empty():
+def test_find_range_emprty():
     assert(find_range([]) == 0)
 
+def test_find_range_unsorted():
+    assert(find_range([3,4,2,5,1]) == 4)
+
 def test_find_range_negative():
-    assert(find_range([1,2,3,4,100,-26,-73,-100]) == 200)
+    assert(find_range([1,2,3,-7,-14,-8]) == 17)
 
 def test_find_range_non_array():
-    assert(find_range("no") == "error")
+    assert(find_range("string") == "error")
 
 
 #LOWER QUARTILE TESTS
