@@ -64,6 +64,9 @@ def test_variance_negative():
 def test_variance_non_array():
     assert(variance("no") == "error")
 
+def test_standard_deviation_basic():
+    assert(standard_deviation([600,470,170,430,300]) == 147.32)
+
 
 def test_merge_basic():
     assert(merge([1,3,5,7,9],[2,4,6,8,10]) == [1,2,3,4,5,6,7,8,9,10])
