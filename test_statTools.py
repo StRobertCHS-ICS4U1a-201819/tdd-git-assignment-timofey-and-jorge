@@ -61,6 +61,8 @@ def test_variance_empty():
 def test_variance_negative():
     assert(variance([-4,-2,0,2,4]) == 8)
 
+def test_variance_non_array():
+    assert(variance("no") == "error")
 
 
 def test_merge_basic():
