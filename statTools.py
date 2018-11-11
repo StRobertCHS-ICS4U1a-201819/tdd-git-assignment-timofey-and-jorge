@@ -11,8 +11,13 @@ def find_range(array):
         return -1
 
 def lower_quartile(array):
-    return 0
+    lenArr = len(array)
+    topVal = int((lenArr)/2)
+    array = array[:topVal]
 
+    mid = int(topVal/2)
+
+    return array[mid]
 
 
 def merge(array1, array2):
