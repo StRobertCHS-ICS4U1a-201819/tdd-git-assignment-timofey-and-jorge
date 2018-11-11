@@ -1,12 +1,14 @@
 def find_range(array):
-    lenArr = len(array)
-    if lenArr > 0:
-        array = merge_sort(array)
-        array_range = array[lenArr-1] - array[0]
-    else:
-        return 0
-    return array_range
-
+    try:
+        lenArr = len(array)
+        if lenArr > 0:
+            array = merge_sort(array)
+            array_range = array[lenArr-1] - array[0]
+        else:
+            return 0
+        return array_range
+    except:
+        return -1
 
 def merge(array1, array2):
     array = []
