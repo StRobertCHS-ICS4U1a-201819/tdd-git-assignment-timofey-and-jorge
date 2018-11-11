@@ -12,14 +12,17 @@ def find_range(array):
 
 def lower_quartile(array):
     lenArr = len(array)
-    topVal = int((lenArr + 1) / 2)
-    array = array[:topVal]
+    if lenArr > 0:
+        topVal = int((lenArr + 1) / 2)
+        array = array[:topVal]
 
-    mid = int(topVal/2)
+        mid = int(topVal/2)
 
-    if (topVal % 2 == 0):
-        return (array[mid-1]+array[mid]) / 2
-    return array[mid]
+        if (topVal % 2 == 0):
+            return (array[mid-1]+array[mid]) / 2
+        return array[mid]
+    else:
+        return 0
 
 
 def merge(array1, array2):
