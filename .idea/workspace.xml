@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d059da3b-b209-4d35-9752-1aa645f6d619" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statTools.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +15,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="py" value="1154" />
+          <entry key="py" value="1284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1154" />
+          <entry key="Python" value="1284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -46,61 +44,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="465">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#309#1" />
-                <element signature="e#729#915#1" />
-                <element signature="e#947#1343#0" />
-                <element signature="e#1345#1531#1" />
-                <element signature="e#1563#1964#0" />
-                <element signature="e#1966#2261#1" />
-                <element signature="e#2287#2701#0" />
-                <element signature="e#2703#2882#1" />
-                <element signature="e#2918#3002#0" />
-                <element signature="e#3005#3199#1" />
-                <element signature="e#3231#3685#0" />
-                <element signature="e#3687#3827#1" />
-                <element signature="e#2713#2878#0" />
-                <marker date="1541958790347" expanded="true" signature="928:1008" ph="..." />
+                <marker date="1541958844081" expanded="true" signature="928:986" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="231">
+              <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#489#531#0" />
-                <element signature="e#568#614#0" />
-                <element signature="e#653#684#0" />
-                <element signature="e#726#772#0" />
-                <element signature="e#814#864#0" />
-                <element signature="e#907#946#0" />
-                <element signature="e#1033#1075#0" />
-                <element signature="e#1112#1158#0" />
-                <element signature="e#1197#1228#0" />
-                <element signature="e#1270#1316#0" />
-                <element signature="e#1358#1407#0" />
-                <element signature="e#1450#1489#0" />
-                <element signature="e#1539#1591#0" />
-                <element signature="e#1624#1649#0" />
-                <element signature="e#1685#1721#0" />
-                <element signature="e#1758#1791#0" />
-                <element signature="e#1861#1920#0" />
-                <element signature="e#1963#1998#0" />
-                <element signature="e#2044#2093#0" />
-                <element signature="e#2140#2183#0" />
-                <element signature="e#2081#2146#0" />
                 <element signature="e#2181#2243#0" />
                 <element signature="e#2281#2355#0" />
-                <marker date="1541958620706" expanded="true" signature="443:512" ph="..." />
+                <marker date="1541960268169" expanded="true" signature="467:514" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,8 +80,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_statTools.py" />
         <option value="$PROJECT_DIR$/statTools.py" />
+        <option value="$PROJECT_DIR$/test_statTools.py" />
       </list>
     </option>
   </component>
@@ -320,11 +286,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" weight="0.30958903" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30821916" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,58 +340,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_statTools.py">
+    <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="465">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#489#531#0" />
-            <element signature="e#568#614#0" />
-            <element signature="e#653#684#0" />
-            <element signature="e#726#772#0" />
-            <element signature="e#814#864#0" />
-            <element signature="e#907#946#0" />
-            <element signature="e#1033#1075#0" />
-            <element signature="e#1112#1158#0" />
-            <element signature="e#1197#1228#0" />
-            <element signature="e#1270#1316#0" />
-            <element signature="e#1358#1407#0" />
-            <element signature="e#1450#1489#0" />
-            <element signature="e#1539#1591#0" />
-            <element signature="e#1624#1649#0" />
-            <element signature="e#1685#1721#0" />
-            <element signature="e#1758#1791#0" />
-            <element signature="e#1861#1920#0" />
-            <element signature="e#1963#1998#0" />
-            <element signature="e#2044#2093#0" />
-            <element signature="e#2140#2183#0" />
-            <element signature="e#2081#2146#0" />
-            <element signature="e#2181#2243#0" />
-            <element signature="e#2281#2355#0" />
-            <marker date="1541958620706" expanded="true" signature="443:512" ph="..." />
+            <element signature="e#0#309#1" />
+            <marker date="1541958844081" expanded="true" signature="928:986" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statTools.py">
+    <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="231">
+          <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
           <folding>
-            <element signature="e#0#309#1" />
-            <element signature="e#729#915#1" />
-            <element signature="e#947#1343#0" />
-            <element signature="e#1345#1531#1" />
-            <element signature="e#1563#1964#0" />
-            <element signature="e#1966#2261#1" />
-            <element signature="e#2287#2701#0" />
-            <element signature="e#2703#2882#1" />
-            <element signature="e#2918#3002#0" />
-            <element signature="e#3005#3199#1" />
-            <element signature="e#3231#3685#0" />
-            <element signature="e#3687#3827#1" />
-            <element signature="e#2713#2878#0" />
-            <marker date="1541958790347" expanded="true" signature="928:1008" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#2181#2243#0" />
+            <element signature="e#2281#2355#0" />
+            <marker date="1541960268169" expanded="true" signature="467:514" ph="..." />
           </folding>
         </state>
       </provider>
