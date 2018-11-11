@@ -47,22 +47,25 @@ def upper_quartile(array):
         return "error"
 
 def variance(array):
-    lenArr = len(array)
-    if lenArr > 0:
-        mean = 0
-        variance = 0
+    try:
+        lenArr = len(array)
+        if lenArr > 0:
+            mean = 0
+            variance = 0
 
-        for i in range(lenArr):
-            mean += array[i]
-        mean /= lenArr
+            for i in range(lenArr):
+                mean += array[i]
+            mean /= lenArr
 
-        for i in range(lenArr):
-            variance += (array[i] - mean)**2
-        variance /= lenArr
+            for i in range(lenArr):
+                variance += (array[i] - mean)**2
+            variance /= lenArr
 
-        return variance
-    else:
-        return 0
+            return variance
+        else:
+            return 0
+    except:
+        return "error"
 
 
 def merge(array1, array2):
