@@ -1,6 +1,7 @@
 import pytest
 from statTools import *
 
+#FIND RANGE TESTS
 def test_find_range_basic():
     assert(find_range([1,2,3,4,5]) == 4)
 
@@ -16,6 +17,8 @@ def test_find_range_negative():
 def test_find_range_non_array():
     assert(find_range("no") == "error")
 
+
+#LOWER QUARTILE TESTS
 def test_lower_quartile_basic():
     assert(lower_quartile([1,2,3,4,5,6]) == 2)
 
@@ -34,6 +37,8 @@ def test_lower_quartile_negative():
 def test_lower_quartile_non_array():
     assert(lower_quartile("no") == "error")
 
+
+#UPPER QUARTILE TESTS (SAME AS LOWER QUARTILE)
 def test_upper_quartile_basic():
     assert(upper_quartile([1,2,3,4,5,6]) == 5)
 
@@ -52,6 +57,8 @@ def test_upper_quartile_negative():
 def test_upper_quartile_non_array():
     assert(upper_quartile("no") == "error")
 
+
+#VARIANCE TESTS
 def test_variance_basic():
     assert(variance([600, 470, 170, 430, 300]) == 21704)
 
@@ -64,6 +71,8 @@ def test_variance_negative():
 def test_variance_non_array():
     assert(variance("no") == "error")
 
+
+#STANDARD DEVIATION TESTS
 def test_standard_deviation_basic():
     assert(standard_deviation([600,470,170,430,300]) == 147.32)
 
@@ -77,6 +86,8 @@ def test_standard_deviation_non_array():
     assert(standard_deviation("no") == "error")
 
 
+
+# TESTS FOR MERGE SORT AND MERGE FUNCTIONS
 def test_merge_basic():
     assert(merge([1,3,5,7,9],[2,4,6,8,10]) == [1,2,3,4,5,6,7,8,9,10])
 
