@@ -8,12 +8,13 @@ def find_range(array):
             return 0
         return array_range
     except:
-        return -1
+        return "error"
 
 def lower_quartile(array):
     lenArr = len(array)
     if lenArr > 0:
         topVal = int((lenArr + 1) / 2)
+        array = merge_sort(array)
         array = array[:topVal]
 
         mid = int(topVal/2)
