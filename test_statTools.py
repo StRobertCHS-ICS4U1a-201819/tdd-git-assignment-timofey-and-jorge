@@ -8,7 +8,7 @@ def test_find_range_simple():
 def test_find_range_basic():
     assert(find_range([1,2,3,4,5]) == 4)
 
-def test_find_range_emprty():
+def test_find_range_empty():
     assert(find_range([]) == 0)
 
 def test_find_range_unsorted():
